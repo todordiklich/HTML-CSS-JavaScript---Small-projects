@@ -9,7 +9,7 @@ const obj = {
 
 const {
   firstArr: first,
-  secondArr: [second],
+  secondArr: [second], // let [a,b,c] = [5, 4, 3, 2, 1];
 } = obj;
 
 console.log(first, second);
